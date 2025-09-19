@@ -1,0 +1,12 @@
+app = "belaynish-telegram-bot"
+primary_region = "fra"
+
+[env]
+  PORT = "8080"
+
+[experimental]
+  allowed_public_ports = []
+
+[http_service]
+  internal_port = 8080
+  force_https = true
